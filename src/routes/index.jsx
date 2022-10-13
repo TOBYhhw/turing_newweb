@@ -4,7 +4,7 @@ import Home from '../pages/Home'
 import Leader from '../pages/Leader'
 import News from '../pages/News'
 import Message from '../pages/Message'
-// 路由映射表
+// 路由映射表 
 const routes = [
     {
         path: '/main',
