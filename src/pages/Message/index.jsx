@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Message() {
+const Message = () => {
     return (
         <div>Message</div>
     )
 }
+export default Message

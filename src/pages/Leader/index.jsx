@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Leader() {
+const Leader = () => {
     return (
         <div>Leader</div>
     )
 }
+export default Leader

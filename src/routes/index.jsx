@@ -1,9 +1,9 @@
 import { Navigate } from 'react-router-dom'
-import Main from '../pages/Main/Main'
-import Home from '../pages/Home/Home'
-import Leader from '../pages/Leader/Leader'
-import News from '../pages/News/News'
-import Message from '../pages/Message/Message'
+import Main from '../pages/Main'
+import Home from '../pages/Home'
+import Leader from '../pages/Leader'
+import News from '../pages/News'
+import Message from '../pages/Message'
 // 路由映射表
 const routes = [
     {
