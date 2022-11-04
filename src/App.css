@@ -1,1 +1,8 @@
 @import '~antd/dist/antd.css';
+
+
+
+.ant-menu-overflow {
+    justify-content: center;
+
+}
