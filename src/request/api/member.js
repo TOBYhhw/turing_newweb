@@ -18,7 +18,7 @@ export function queryMemberByDirectionAPI(direction, offset, page) {
         url: "/guest/member/queryMemberByDirection",
         method: 'get',
         params: {
-            direction,
+            direction,//必填参数
             offset,
             page
         }
