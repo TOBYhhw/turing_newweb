@@ -9,10 +9,13 @@ export function awardCountAPI() {
 }
 
 //奖项查询
-export function awardQueryAPI(data) {
+export function awardQueryAPI(offset, page) {
     return myAxios({
         url: "/guest/award/awardQuery",
         method: 'get',
-        params: data
+        params: {
+            offset,
+            page
+        }
     })
 }
