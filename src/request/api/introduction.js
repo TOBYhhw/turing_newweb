@@ -9,7 +9,7 @@ export function introductionQueryAllAPI() {
 }
 
 //最新的团队简介
-export function introductionQueryLastingOneAPI(liveId) {
+export function introductionQueryLastingOneAPI() {
     return myAxios({
         url: "/guest/introduction/introductionQueryLastingOne",
         method: 'get'
