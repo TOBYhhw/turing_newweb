@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import "./App.css"
-import { Layout, Menu } from 'antd';
+import { Layout, Menu, Col, Row } from 'antd';
 import { CoffeeOutlined, UsergroupAddOutlined, TeamOutlined, HomeOutlined, UserAddOutlined, TrophyOutlined, FileTextOutlined } from '@ant-design/icons';
 import { useRoutes, useNavigate } from "react-router-dom";
 import routes from './routes';
+import logo from './logo.jpg'
 
 const { Header, Footer, Content } = Layout;
 const items = [
@@ -63,11 +64,20 @@ const App = () => {
         width: "100%",
         background: ' #fff'
       }}>
-        <Menu style={{ fontSize: '1.4vw', }}
-          onClick={onClick}
-          selectedKeys={[current]}
-          mode="horizontal"
-          items={items} />
+        <Row>
+          <Col span={6}>
+            <div className='box'>
+              <img src={logo}></img>
+              图灵智能创新团队</div>
+          </Col>
+          <Col span={18}>
+            <Menu style={{ fontSize: '1.4vw', }}
+              onClick={onClick}
+              selectedKeys={[current]}
+              mode="horizontal"
+              items={items} />
+          </Col>
+        </Row>
       </Header>
       <Content style={{ background: ' #f0f2f5' }}>
         {useRoutes(routes)}

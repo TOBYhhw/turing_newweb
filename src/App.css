@@ -3,6 +3,19 @@
 
 
 .ant-menu-overflow {
-    justify-content: center;
+    /* justify-content: center; */
 
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4vw;
+    white-space: nowrap;
+    font-family: '仿宋';
+}
+
+img {
+    width: 67.575px
+        /* width:4.4vw */
 }
