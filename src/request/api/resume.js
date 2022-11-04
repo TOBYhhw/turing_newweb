@@ -13,7 +13,7 @@ export function resumeEntrepreneurshipAddAPI(data) {
     return myAxios({
         url: "/guest/resume/resumeEntrepreneurshipAdd",
         method: 'post',
-        parmas: data
+        params: data
     })
 }
 
@@ -22,7 +22,7 @@ export function resumeInnovateAddAPI(data) {
     return myAxios({
         url: "/guest/resume/resumeInnovateAdd",
         method: 'post',
-        parmas: data
+        params: data
     })
 }
 //根据学号查询简历内容
