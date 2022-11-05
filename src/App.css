@@ -13,9 +13,11 @@
     font-size: 1.4vw;
     white-space: nowrap;
     font-family: '仿宋';
+
 }
 
 img {
-    width: 67.575px
-        /* width:4.4vw */
+    width: 67.575px;
+    height: 67.575px;
+    /* width:4.4vw */
 }

@@ -68,7 +68,8 @@ const App = () => {
           <Col span={6}>
             <div className='box'>
               <img src={logo}></img>
-              图灵智能创新团队</div>
+              <p>图灵智能创新团队</p>
+            </div>
           </Col>
           <Col span={18}>
             <Menu style={{ fontSize: '1.4vw', }}
@@ -79,7 +80,7 @@ const App = () => {
           </Col>
         </Row>
       </Header>
-      <Content style={{ background: ' #f0f2f5' }}>
+      <Content style={{ background: ' #f0f2f5', marginTop: '5% ' }}>
         {useRoutes(routes)}
 
       </Content>
